@@ -3,20 +3,20 @@ This dashboard visualizes organizational project and financial data to provide i
 
 ---
 
-## Objective
+## 🎯 Objective
 - Analyze project, budget, and HR data to flag over-budget or underperforming departments
 - Assess whether annual expenses are sustainable within 2-year budget horizons
 - Understand how employee salary distribution and project assignments relate to overall project outcomes
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 - **PostgreSQL** — CTEs, unions, relational joins
 - **Power BI** — data modeling, DAX measures, and interactive dashboard visualization
 
 ---
 
-## Workflow
+## 🔄 Workflow
 1. **Data Preparation (PostgreSQL)**
    - Unified projects data and store it within CTEs
    - Joined employee, department, project, and budget data into a single analytical table for Power BI
@@ -56,12 +56,12 @@ JOIN project_status USING(project_id);
 
 ---
 
-## Dashboard Preview
+## 📊 Dashboard Preview
 ![02_project_overview_dashboard_page-0001](https://github.com/user-attachments/assets/334ef220-fe82-476b-a297-053cdb72f540)
 
 ---
 
-## What the Dashboard Shows
+## 🔍 What the Dashboard Shows
 ### 1. Department-level budget vs. actual spending
 Compares 1-year departmental budgets against project costs, salary expenses, and capital allocation to quickly identify departments that may be overspending or underutilizing their budgets.
 ### 2. Project Status Visibility
@@ -75,7 +75,7 @@ Dynamic filters (department, employee, project) that allow stakeholders to explo
 
 ---
 
-## Key Insights
+## 📌 Key Insights
 - All departments operate within their allocated 1-year budgets, with no instances of overspending.
 - Remaining capital across departments provides flexibility for scaling projects or funding new initiatives without immediate budget pressure.
 - Salaries range from $68K–$95K, with higher compensation aligned to IT roles (e.g., Data Scientist)
